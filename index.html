@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Web Design</title>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images\kevin-logo.png" alt="Logo">
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#" class="underline-effect">Home</a></li>
+        <li><a href="#aboutme" class="underline-effect smoothscroll">About</a></li>
+        <li><a href="#myServices" class="underline-effect smoothscrolls">Services</a></li>
+        <li><a href="#projects" class="underline-effect smooth_scroll">Projects</a></li>
+        <li><a href="#contactme" class="underline-effect smooth-scroll">Contact</a></li>
+      </ul>
+      <div class="toggle-button" id="toggleButton">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+
+
+
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="overlay">
+    <div class="hero-content">
+      <h1 class="hidden-right headernav">Experience Modern Design</h1>
+      <a href="#" class="button">Learn More</a>
+    </div>
+    </div>
+  </header>
+
+
+
+
+  <br>
+
+
+
+
+
+
+  <!-- About Section -->
+  <div class="title-container">
+    <h2 class="title">ABOUT ME</h2>
+  </div>
+
+  <section class="parallax-section" id="aboutme">
+    <div class="parallax-background"></div>
+    <div class="content-container">
+      <div class="content-left hidden-left">
+        <img src=".\images\image.jpg" alt="Left Image">
+      </div>
+      <div class="content-right hidden-right">
+        <h2>About Me</h2>
+        <p>
+          my name is kelvin Githinji, a self driven individual with an immense passion in technology.
+          I believe that
+          through technology i can change the world and make it a better place.
+        </p>
+        <button class="cta-button">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- Services Section -->
+    <div class="title-container">
+      <h2 class="title">MY SERVICES</h2>
+    </div>
+
+
+    <section class="properties" id="myServices">
+
+      <div class="property" style="background-image: url('\images\graphics-design.jpg');">
+        <div class="property-content">
+          <h2>GRAPHIC DESIGN</h2>
+          <p class="description">state of the art graphics.</p>
+          <button class="explore-btn">Explore</button>
+        </div>
+      </div>
+
+      <div class="property" style="background-image: url('images/aquatic3.jpg');">
+        <div class="property-content">
+          <h2>WEB DEVELOPMENT</h2>
+          <p class="description">Beautiful interactive websites.</p>
+          <button class="explore-btn">Explore</button>
+        </div>
+      </div>
+
+      <div class="property" style="background-image: url('\images\Screenshot (231).png');">
+        <div class="property-content">
+          <h2>SOFTWARE DEVELOPMENT</h2>
+          <p class="description">we build user friendly and secure software .</p>
+          <button class="explore-btn">Explore</button>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- project Section -->
+  <section class="project-section" id="projects">
+    <div class="project-header">
+      <h2>My Projects</h2>
+    </div>
+
+    <div class="project-grid">
+      <div class="project-item">
+        <img src=".\images\Screenshot (231).png" alt="Project javascript" class="project-image thumbnail">
+      </div>
+      <div class="project-item">
+        <img src="\images\Screenshot (16).png" alt="Project php" class="project-image thumbnail" >
+      </div>
+      <div class="project-item">
+        <img src="\images\Screenshot (25).png" alt="Project mysql" class="project-image thumbnail">
+      </div>
+      <div class="project-item">
+        <img src="\images\Screenshot (240).png" alt="Project css" class="project-image thumbnail">
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+      <a class="prev">&#10094;</a>
+      <a class="next">&#10095;</a>
+  </div>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- contact-section -->
+<div class="contact-background" id="contactme">
+  <div class="contact-section hidden-right ">
+      <h2 class="section-heading">Contact Us</h2>
+      <div class="contact-info">
+          <div class="info-item">
+              <h3>Email</h3>
+              <p>kelvingithinji330@gmail.com</p>
+          </div>
+          <div class="info-item">
+              <h3>Phone</h3>
+              <p>0704155994</p>
+          </div>
+          <div class="info-item">
+              <h3>Address</h3>
+              <p>BURUBURU, NAIROBI, KENYA</p>
+          </div>
+      </div>
+      <form class="contact-form">
+          <h3>Send us a Message</h3>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message:</label>
+          <input type="text" id="message" name="message" required>
+
+          <button type="submit">Submit</button>
+      </form>
+  </div>
+</div>
+<br>
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="detailed-footer">
+    <div class="footer-top">
+      <div class="footer-column">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#aboutme">About</a></li>
+          <li><a href="#myServices">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contactme">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>About me</h4>
+        <ul>
+          <li><a href="#">Graphic design</a></li>
+          <li><a href="#">Web development</a></li>
+          <li><a href="#">Software development</a></li>
+          <li><a href="#">UI/UX</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Warranty</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Shipping Info</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Newsletter</h4>
+        <p>Subscribe to stay updated with our latest news and offers.</p>
+        <form action="#" method="POST" class="newsletter-form">
+          <input type="email" name="email" placeholder="Enter your email" required>
+          <button type="submit">Sign Up</button>
+        </form>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 KEVIN portfolio. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Terms of Use</a>
+        <span>|</span>
+        <a href="#">Privacy Policy</a>
+        <span>|</span>
+        <a href="#">Site Map</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
